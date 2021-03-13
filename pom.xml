@@ -15,7 +15,7 @@
 	<description>Demo project for testing Azure Service Bus</description>
 	<properties>
 		<java.version>11</java.version>
-		<azure.version>3.1.0</azure.version>
+		<azure.version>3.2.0</azure.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -28,7 +28,7 @@
 		</dependency>
 		<dependency>
 			<groupId>com.azure.spring</groupId>
-			<artifactId>azure-spring-boot-starter</artifactId>
+			<artifactId>azure-spring-boot-starter-servicebus-jms</artifactId>
 		</dependency>
 
 		<dependency>
